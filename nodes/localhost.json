@@ -1,0 +1,11 @@
+# nodes/localhost.json
+{
+  "run_list": [
+    "recipe[apache2]",
+    "recipe[apache2::mod_php5]",
+    "recipe[mysql::client]",
+    "recipe[mysql::server]",
+    "recipe[php]",
+    "recipe[php::module_mysql]"
+  ]
+}
