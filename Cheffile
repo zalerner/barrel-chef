@@ -1,0 +1,35 @@
+site 'http://community.opscode.com/api/v1'
+
+### LAMP stuff
+cookbook 'apache2', '~> 3.0.1'
+cookbook 'mysql', '~> 6.0.22'
+cookbook 'php', '~> 1.5.0'
+
+### Monitoring/Alerting
+cookbook 'newrelic', '~> 2.11.2'
+cookbook 'monit_bin', '~> 1.2.1'
+#cookbook 'sensu', '~> 2.9.0'
+#cookbook 'nagios', '~> 7.1.2'
+
+### Access
+cookbook 'vsftpd', '~> 0.0.1'
+cookbook 'acl', '~> 1.0.2'
+cookbook 'phpmyadmin', '~> 1.0.6'
+
+### Version Control
+cookbook 'git', '~> 4.2.2'
+
+### Email
+cookbook 'postfix', '~> 3.6.2'
+
+### Caching 
+cookbook 'varnish', '~> 2.2.0'
+
+### Backups
+#cookbook 'amazon_s3cmd', '~> 0.1.50'
+
+### Security
+#cookbook 'selinux', '~> 0.9.0'
+
+### 4 Multi-Server Environments
+#cookbook 'lsyncd', '~> 0.2.3'
