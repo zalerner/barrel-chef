@@ -39,6 +39,8 @@ GEM
     hashie (2.1.2)
     highline (1.7.2)
     ipaddress (0.8.0)
+    kitchen-vagrant (0.18.0)
+      test-kitchen (~> 1.4)
     knife-solo (0.4.2)
       chef (>= 10.12)
       erubis (~> 2.7.0)
@@ -132,6 +134,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kitchen-vagrant
   knife-solo (~> 0.4.2)
   librarian-chef (~> 0.0.4)
   test-kitchen (~> 1.4.0)
